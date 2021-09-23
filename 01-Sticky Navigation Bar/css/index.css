@@ -1,0 +1,34 @@
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.navbar {
+    width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.banner {
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    height: 490px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-title {
+    color: white;
+}
